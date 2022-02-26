@@ -14,7 +14,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 255px;
+    width: 0px;
     height: 100%;
     transition: all 0.5s ease ;
 }
@@ -26,21 +26,24 @@ body{
     color: rgb(0, 0, 0);
 }
 .wrapper .section{
-    width: calc(100% - 225px);
+    width: 100%;
     margin-left: 225px;
     transition: all 0.5s ease;
 }
 .wrapper .section .top_navbar{
-    background-color: rgb(133, 136, 136);
+    background-color: rgb(25, 104, 104);
     height: 50px;
     display: flex;
-    align-items: center;
-    padding: 0 50px;
+    padding: 0px 50px;
+    
 }
 .wrapper .section .top_navbar .hamburger a{
+    /* position: relative; */
     font-size: 28px;
     color: #ffffff;
+    text-align: left;
 }
+
 .wrapper .section .top_navbar .hamburger a:hover{
     color: rgb(122, 97, 235);
 }
